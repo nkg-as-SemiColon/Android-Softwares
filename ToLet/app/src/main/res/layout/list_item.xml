@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#1cf2f9"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="CITY"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="rent/1500"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:id="@+id/rent"
+        android:layout_below="@+id/city"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Locality"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locality"
+        android:layout_marginStart="13dp"
+        android:layout_below="@+id/city"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/date"
+        android:layout_below="@+id/rent" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/Undo"
+        android:title="Undo"
+        android:icon="@drawable/back"
+        app:showAsAction="always"
+        > </item>
+
+    <item
+        android:id="@+id/white"
+        android:title="Color: white"
+        app:showAsAction="never"
+        > </item>
+    <item
+        android:id="@+id/Blue"
+        android:title="Color: Blue"
+        app:showAsAction="never"
+        > </item>
+    <item
+        android:id="@+id/Black"
+        android:title="Color: Black"
+        app:showAsAction="never"
+        > </item>
+    <item
+        android:id="@+id/s_10"
+        android:title="Text Size: 10"> </item>
+    <item
+        android:id="@+id/s_20"
+        android:title="Text Size: 20"> </item>
+    <item
+        android:id="@+id/s_30"
+        android:title="Text Size: 30"> </item>
+    <item
+        android:id="@+id/s_40"
+        android:title="Text Size: 40"> </item>
+    <item
+        android:id="@+id/s_50"
+        android:title="Text Size: 50"> </item>
+
+
+
+</menu>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainScroll"
+    android:scrollbarThumbVertical="@null"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_upload"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:background="#ffffff"
+    android:paddingBottom="20px"
+    tools:context="com.loutasae.tolet.Upload"
+    android:fadeScrollbars="true"
+    android:scrollbars="vertical">
+
+    <Button
+        android:text="Fill the details"
+        android:textSize="25dp"
+        android:background="#1a108f"
+        android:textColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button" />
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textSize="25dp"
+        android:textColor="#1a108f"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="City"
+        android:fontFamily="cursive"
+        android:ems="10"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textSize="25dp"
+        android:textColor="#1a108f"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="Locality"
+        android:fontFamily="cursive"
+        android:ems="10"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editText2" />
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textSize="25dp"
+        android:hint="Approx Rent"
+        android:textColor="#1a108f"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:fontFamily="cursive"
+        android:ems="10"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editText6" />
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textSize="25dp"
+        android:textColor="#1a108f"
+        android:textAlignment="center"
+        android:inputType="date"
+        android:hint="From date"
+        android:fontFamily="cursive"
+        android:ems="10"
+        android:layout_below="@+id/editText6"
+        android:layout_alignEnd="@+id/editText6"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editText7" />
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="25dp"
+        android:textColor="#1a108f"
+        android:textAlignment="center"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:hint="Remarks"
+        android:layout_below="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editText8"
+        android:padding="5dp"
+        android:filterTouchesWhenObscured="false"
+        android:fontFamily="cursive"
+        android:isScrollContainer="true"
+        android:enabled="true" />
+
+    <Button
+        android:text="Upload"
+        android:background="#2563da"
+        android:layout_width="120dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button3"
+        android:layout_below="@+id/editText8"
+        android:onClick="UploadClicked"
+        android:layout_marginTop="25dp"
+        android:textStyle="normal|bold" />
+
+
+</RelativeLayout>
+
+</ScrollView>
